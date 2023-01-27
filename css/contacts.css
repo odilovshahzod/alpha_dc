@@ -1,0 +1,29 @@
+.main_contacts{
+    margin-bottom: 30px;
+}
+.main_contacts .container-min {
+    width: 66%;
+    margin: 0 auto;
+    margin-bottom: 85px;
+}
+.main_contacts .contacts__map-container{
+    width: 66%;
+    margin: 0 auto;
+}
+@media (max-width : 1200px) {
+    .contacts__container .header__card .harder__card-blur {
+        padding-bottom: 20px;
+        height: auto;
+    }
+    .main_contacts .contacts__map-container {
+        width: 100%;
+    }
+    .main_contacts{
+        margin-top: 30px;
+    }
+}
+@media (max-width : 1200px) {
+        .main_contacts {
+            margin-top: 0px;
+        }
+}
